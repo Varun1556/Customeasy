@@ -50,16 +50,15 @@ Customeasy/
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/YourUsername/Customeasy.git
+   git clone https://github.com/Varun1556/Customeasy.git
 Open in Android Studio
 
 Go to File > Open and select the project folder.
 
 Build the project
-
 Android Studio will download the required SDK files.
-
 Run on emulator or device
+
 Developed by Varun Kumar Singh
 📧 [vs2715450@gmail.com]
 🔗 [[My LinkedIn Profile Link (https://www.linkedin.com/in/varun-kumar-singh-934b0824a/)]
