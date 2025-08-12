@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/regUsernameInput"
+        android:hint="New Username"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/regPasswordInput"
+        android:hint="New Password"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/regConfirmPasswordInput"
+        android:hint="Confirm Password"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:text="Register"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/goToLoginBtn"
+        android:text="Already have an account? Login"
+        android:background="#BB86FC"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

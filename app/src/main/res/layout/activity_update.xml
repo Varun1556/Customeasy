@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Update Customer"
+            android:textColor="#00FFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/updateId"
+            android:hint="Enter Customer ID"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/fetchBtn"
+            android:text="Fetch Record"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- These fields will be filled and editable after fetching -->
+        <EditText
+            android:id="@+id/updateName"
+            android:hint="Customer Name"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/updateAddress"
+            android:hint="Customer Address"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/updatePhone"
+            android:hint="Customer Phone"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:text="Update Record"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

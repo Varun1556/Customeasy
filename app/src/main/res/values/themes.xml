@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Customeasy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <!--  Default App Theme -->
+    <style name="Theme.Customeasy" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">#121212</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#FF3B30</item>
+        <item name="android:windowBackground">#121212</item>
+    </style>
+</resources>

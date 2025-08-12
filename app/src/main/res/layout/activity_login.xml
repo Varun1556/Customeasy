@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#121212"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:hint="@string/username"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:text="@string/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#F44336"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/goToRegister"
+        android:text="Don't have an account? Register"
+        android:textColor="#00FFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
