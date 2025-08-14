@@ -25,21 +25,24 @@
 
         <TextView
             android:id="@+id/nameText"
-            android:textColor="#BB86FC"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
             android:textSize="15sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/addressText"
-            android:textColor="#BB86FC"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
             android:textSize="14sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/phoneText"
-            android:textColor="#BB86FC"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
             android:textSize="14sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

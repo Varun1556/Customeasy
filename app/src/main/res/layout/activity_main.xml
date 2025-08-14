@@ -9,7 +9,7 @@
     android:padding="20dp">
 
     <TextView
-        android:text="Customeasy"
+        android:text="ACTIVITY BOARD"
         android:textColor="#00FFFF"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <Button android:text="Insert Customer"
+    <Button android:text="Add Customer"
         android:onClick="goToInsert"
         style="@style/RedButton"/>
 

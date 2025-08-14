@@ -1,48 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:padding="30dp"
-    android:background="#121212"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#121212">
 
-    <EditText
-        android:id="@+id/usernameInput"
-        android:hint="@string/username"
-        android:background="#FFFFFF"
-        android:textColor="#000000"
-        android:padding="12dp"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp" />
+        android:padding="20dp"
+        android:gravity="center_horizontal">
 
-    <EditText
-        android:id="@+id/passwordInput"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:background="#FFFFFF"
-        android:textColor="#000000"
-        android:padding="12dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp" />
+        <!-- App Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Your Details"
+            android:textSize="28sp"
+            android:textColor="#00FFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp" />
 
-    <Button
-        android:id="@+id/loginBtn"
-        android:text="@string/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="#F44336"
-        android:textColor="#ffffff" />
+        <!-- Username Input -->
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="15dp" />
 
-    <TextView
-        android:id="@+id/goToRegister"
-        android:text="Don't have an account? Register"
-        android:textColor="#00FFFF"
-        android:textSize="16sp"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <!-- Password Input -->
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:inputType="textPassword"
+            android:layout_marginBottom="20dp" />
 
-</LinearLayout>
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="15dp" />
+
+        <!-- Go to Register Button -->
+        <Button
+            android:id="@+id/goToRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DON'T HAVE AN ACCOUNT? REGISTER"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

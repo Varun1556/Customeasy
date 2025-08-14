@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
     package="com.example.customeasy">
 
     <application
@@ -19,9 +18,22 @@
         <activity android:name=".ViewAllActivity" />
         <activity android:name=".UpdateActivity" />
         <activity android:name=".DeleteActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".MainActivity" android:exported="true" />
-        <activity android:name=".LoginActivity" android:exported="true"/>
+
+        <!-- RegisterActivity with keyboard resize -->
+        <activity
+            android:name=".RegisterActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- LoginActivity with keyboard resize -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
 
         <!-- SplashActivity as Launcher -->
         <activity
@@ -33,5 +45,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 </manifest>

@@ -1,5 +1,6 @@
 package com.example.customeasy;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -22,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     public static final String PREF_NAME = "LoginPrefs";
     public static final String IS_LOGGED_IN = "isLoggedIn";
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

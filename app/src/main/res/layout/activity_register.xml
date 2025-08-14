@@ -1,58 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:background="#121212"
-    android:padding="30dp"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#121212">
 
-    <EditText
-        android:id="@+id/regUsernameInput"
-        android:hint="New Username"
-        android:textColor="#000000"
-        android:background="#FFFFFF"
-        android:padding="12dp"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"/>
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+        <!-- App Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Register Yourself"
+            android:textSize="28sp"
+            android:textColor="#00FFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp" />
 
-    <EditText
-        android:id="@+id/regPasswordInput"
-        android:hint="New Password"
-        android:textColor="#000000"
-        android:background="#FFFFFF"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"/>
+        <EditText
+            android:id="@+id/regUsernameInput"
+            android:hint="New Username"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
 
-    <EditText
-        android:id="@+id/regConfirmPasswordInput"
-        android:hint="Confirm Password"
-        android:textColor="#000000"
-        android:background="#FFFFFF"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"/>
+        <EditText
+            android:id="@+id/regPasswordInput"
+            android:hint="New Password"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
 
-    <Button
-        android:id="@+id/registerBtn"
-        android:text="Register"
-        android:background="#2196F3"
-        android:textColor="#FFFFFF"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"/>
+        <EditText
+            android:id="@+id/regConfirmPasswordInput"
+            android:hint="Confirm Password"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"/>
 
-    <Button
-        android:id="@+id/goToLoginBtn"
-        android:text="Already have an account? Login"
-        android:background="#BB86FC"
-        android:textColor="#FFFFFF"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-</LinearLayout>
+        <Button
+            android:id="@+id/registerBtn"
+            android:text="Register"
+            android:background="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/goToLoginBtn"
+            android:text="Already have an account? Login"
+            android:background="#9C27B0"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
